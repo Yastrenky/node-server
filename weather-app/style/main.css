@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: #28236b;
+  color: white;
+  /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvNU8_S6IljtQKvBMIGtPW10gRoH1OmoVGGzRPVLPf2ymIPLx0A");
+background-repeat: no-repeat;*/
+}
+
+.temp-unit {
+  cursor: pointer;
+  color: #5bf;
+  font-weight: bold;
+  ;
+}
+
+.temp-unit:active, .temp-unit:hover {
+  color: orange;
+}
+
+.icon {
+  width: 141px;
+  transform: translateY(-10px);
+}
+.icon:hover{
+  box-shadow: none;
+  transition-duration: 1s;
+  transform:translateY(0px);
+}
+
+
+h2.city {
+  margin-top: 99px;
+}
+
+.zip {
+  font-size: 15px;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px;
+  background-color: rgba(0, 0, 0, .6);
+}
